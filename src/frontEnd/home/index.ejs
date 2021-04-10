@@ -229,20 +229,25 @@ input[type="submit"]:hover{
     <div class="content">      
 
       <div id="login">
-        <form method="post" action=""> 
+        <form method="post" action="user/login"> 
           <h1>Login</h1> 
           <p> 
-            <label for="nome_login">Seu nome</label>
-            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. growthcode@hotmail.com"/>
+            <label for="email">Seu email</label>
+            <input id="email" name="email" value="michaalvesreino@gmail.com" required="required" type="text" placeholder="ex. growthcode@hotmail.com"/>
+
+
           </p>
            
           <p> 
-            <label for="email_login">Seu e-mail</label>
-            <input id="email_login" name="email_login" required="required" type="password" /> 
+            <label for="password">Sua senha</label>
+            <input id="password" name="password" required="required" type="password" /> 
           </p>
            
           <p> 
             <input type="submit" value="Logar" /> 
+          </p>
+          <p>
+            <h3><a href="/cadastro">Não tem cadastro ?</a></h3>
           </p>
            
         
